@@ -37,6 +37,8 @@ public final class LsdfPollBotComponent extends TelegramLongPollingBot {
 //	@Scheduled(cron = "0 15 10 15 * ?", zone = "Europe/Paris")
 @Scheduled(fixedRate = 10000000)
 	private void sendMondayPoll(){
+		logger.info("Entro nel send poll");
+		
 		String question = "Oggi allenamento dalle 20.00 alle 22.45";
 		List<String> options = new ArrayList<>();
 		options.add("Presente");
