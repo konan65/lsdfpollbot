@@ -22,10 +22,7 @@
 //	@Column(name = "OPENING_DAY")
 //	String openingDay;
 //	@Column(name = "OPENING_TIME")
-//	String openingTime;
-//	@Column(name = "CLOSING_TIME")
-//	String closingTime;
-//	@Column(name = "POLL_TEST")
+//	@Column(name = "POLL_TEXT")
 //	String pollText;
 //
 //	@PrePersist
@@ -93,14 +90,6 @@
 //
 //	public void setOpeningTime(String openingTime) {
 //		this.openingTime = openingTime;
-//	}
-//
-//	public String getClosingTime() {
-//		return closingTime;
-//	}
-//
-//	public void setClosingTime(String closingTime) {
-//		this.closingTime = closingTime;
 //	}
 //
 //	public String getPollText() {
