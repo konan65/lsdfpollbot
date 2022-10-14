@@ -1,0 +1,1 @@
+web: java -jar target/lsdf-poll-bot-1.0.0.jar
